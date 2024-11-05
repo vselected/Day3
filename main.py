@@ -66,12 +66,44 @@
 # for (a,b) in my_list:
 #     print(a)
 #     print(b)
-
-d = {"k1":1, "k2":2, "k3":3}
-for key,value in d.items():
-    print(key)
-
-for value in d.values():
-    print(value)
-
+#
+# d = {"k1":1, "k2":2, "k3":3}
+# for key,value in d.items():
+#     print(key)
+#
+# for value in d.values():
+#     print(value)
+#
 # While loops
+#
+# x = 0
+# while x < 5:
+#     print("The current value: {}".format(x))
+#     x += 1
+# else:
+#     print("X is not less than 5")
+#
+# x = [1,2,3,4]
+# for i in x:
+#     pass
+#
+# mystring = "Sammy"
+# for letter in mystring:
+#     if letter == "m":
+#         continue
+#     print(letter)
+#
+# mystring = "Sammy"
+# for letter in mystring:
+#     if letter == "m":
+#         break
+#     print(letter)
+#
+# x = 0
+# while x < 5:
+#     if x == 2:
+#         break
+#     print(x)
+#     x += 1
+
+# Useful Operators in Python
