@@ -148,5 +148,42 @@
 #
 # result = input("What's your name: ")
 # print("Pleasure to meet you {}!".format(result))
+#
+# # List Comprehensions
+# my_string = "hello"
+# my_list = []
+# for letter in my_string:
+#     my_list.append(letter)
+#
+# print(my_list)
+#
+# my_list = [letter for letter in my_string]
+# print(my_list)
+#
+# my_list = [num for num in range(0,55) if num%2==0]
+# print(my_list)
+#
+# celcius = [0,10,20,34.5]
+# fahrenheit = [((9/5)*temp+32) for temp in celcius]
+# print(fahrenheit)
+#
+# my_string = "Hello"
+# print(len(my_string))
 
-# List Comprehensions
+# 1) Use for, .split(), and if to create a Statement that will print out words that start with 's':
+st = 'Print only the words that start with s in this Sentence'
+for word in st.split():
+    if word[0].lower() == "s":
+        print(word)
+
+# 2) Use range() to print all the even numbers from 0 to 10.
+mylist = list(range(0,11))
+for number in mylist:
+    if number % 2==0:
+        print(number)
+
+mylist = list(range(0,11,2))
+print(mylist)
+
+# 3) Use a List Comprehension to create a list of all numbers between 1 and 50 that are divisible by 3.
+
