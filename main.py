@@ -188,3 +188,30 @@ print(mylist)
 # 3) Use a List Comprehension to create a list of all numbers between 1 and 50 that are divisible by 3.
 mylist = [number for number in range(1,51) if number % 3 == 0]
 print(mylist)
+
+# 4) Go through the string below and if the length of a word is even print "even!"
+st = 'Print every word in this sentence that has an even number of letters'
+for word in st.split():
+    if len(word) % 2 == 0:
+        print("even!")
+    else:
+        print(word)
+
+# 5) Write a program that prints the integers from 1 to 100. But for multiples of three print
+# "Fizz" instead of the number, and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+mylist = list(range(1,100))
+for number in mylist:
+    if number % 3==0 and number % 5==0:
+        print("FizzBuzz")
+    elif number % 3==0:
+        print("Fizz")
+    elif number % 5==0:
+        print("Buzz")
+    else:
+        print(number)
+
+# 6) Use List Comprehension to create a list of the first letters of every word in the string below:
+st = 'Create a list of the first letters of every word in this string'
+newlist = [word[0] for word in st.split()]
+print(newlist)
+
