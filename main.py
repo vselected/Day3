@@ -186,4 +186,5 @@ mylist = list(range(0,11,2))
 print(mylist)
 
 # 3) Use a List Comprehension to create a list of all numbers between 1 and 50 that are divisible by 3.
-
+mylist = [number for number in range(1,51) if number % 3 == 0]
+print(mylist)
