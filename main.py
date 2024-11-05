@@ -107,3 +107,46 @@
 #     x += 1
 
 # Useful Operators in Python
+#
+# my_list = list(range(0,51))
+#
+# for num in my_list:
+#     print(num)
+#
+# index_count = 0
+# for letter in "abcdef":
+#     print("At index {} the letter is {}".format(index_count,letter))
+#     index_count += 1
+#
+# word = "abcde"
+# for index,letter in enumerate(word):
+#     print(index)
+#
+# my_list = [1,2,3,4,5,6,7,8]
+# my_list1 = ["a", "b", "c", "d", "e"]
+# for item in zip(my_list, my_list1):
+#     print(item)
+#
+# my_list3 = list(zip(my_list,my_list1))
+# print(my_list3)
+#
+# print("x" in [1,2,3])
+# print(2 in [1,2,3])
+#
+# my_list = [1,10,100]
+# print(max(my_list))
+# # print(min(my_list))
+#
+# from random import shuffle
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# shuffle(my_list)
+# print(my_list)
+#
+# from random import randint
+# print(randint(0,100))
+#
+#
+# result = input("What's your name: ")
+# print("Pleasure to meet you {}!".format(result))
+
+# List Comprehensions
